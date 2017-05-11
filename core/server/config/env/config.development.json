@@ -26,5 +26,20 @@
         "admin": {
             "maxAge": 0
         }
+    },
+    "storage": {
+        "active": "alioss",
+        "alioss": {
+            "accessKeyId": "YpdyJe6UWHdUhTQ8",
+            "accessKeySecret": "J26vIf2clhgSRc5HXVNpsgZu56mtL7",
+            "bucket": "assitant",
+            "region": "oss-cn-qingdao",
+            "origin": "http://assitant.oss-cn-qingdao.aliyuncs.com/",
+            "fileKey": {
+              "safeString": true,
+              "prefix": "ghost/",
+              "suffix": ""
+            }
+        }
     }
 }
